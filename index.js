@@ -104,8 +104,8 @@ top: resultContainer.getBoundingClientRect().top,
         if(generatedPassword){
             copyBtn.style.opacity ='1';
             copyBtn.style.pointerEvents ='all';
-            copyBtn.style.setProperty("--x,`${e.x-resultContainerBound.left}px`");
-            copyBtn.style.setProperty("--y,`${e.y-resultContainerBound.top}px`");
+            copyBtn.style.setProperty("--x", `${e.x - resultContainerBound.left}px`);
+            copyBtn.style.setProperty("--y", `${e.y - resultContainerBound.top}px`);
         }else{
             copyBtn.style.opacity ='0';
             copyBtn.style.pointerEvents ='none';
